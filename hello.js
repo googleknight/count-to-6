@@ -1,1 +1,1 @@
-console.log("HELLO ES6");
+module.exports = function hello(){return 'HELLO ES6';};
