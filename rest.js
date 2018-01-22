@@ -3,6 +3,8 @@ module.exports = function average(...args) {
     args.forEach(function (value) {
         result += value;
     });
-
-    return result/args.length;
+    if(args.length>0)
+        return result/args.length;
+    else
+        return 0;
 };
